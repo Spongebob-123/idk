@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:#ded8ee;
+}
+
+
+h1{
+  font-family: "Lucida Handwriting",cursive;
+  color:#6f5ec5
+}
+h2{
+  font-family: "Lucida Handwriting",cursive;
+  color:#6f5ec5
+}
+p{
+  font-family: "Lucida Handwriting",cursive;}
+
+ul{
+  font-family: "Lucida Handwriting",cursive;}
+p{ font-family: "Lucida Handwriting",cursive;}
+.top{
+  background-color: #ccadad;
+}
+/* styling for heading*/.heading {
+  background-color: lightsteelblue;
+  border: 3px solid
+    violet;
+}
+/* styling for top*/ .top {background-color: lightblue; 
+                           border: 3px solid violet;
+}
+/* styling for image */ .image { background-color: aliceblue;
+                               border: 3px solid violet;
+}
+a:hover{ background-color: white;}
+.top:hover{background-color: #ffffff;
+          rotate: 360deg;
+          transition:rotate 3s;}
+.image:hover{background-color: white;
+            rotate:360deg;
+            transition: rotate 3s;}
+.heading:hover{background-color: white;}
+
+div{border: 3px solid violet;
+   padding: 35px;
+   }
+nav a{
+  color:black;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes happy{
+  0%{transform: scale(1);}
+50% {transform:sclae(5);}
+100% {transform: scale(1);}
+}
+
+.spongebob:hover{background-color: white;
+                 rotate: 360deg;
+                 transition: rotate 3s;}
+
+.pic:hover{background-color:white;
+          rotate: 360deg;
+          transition: rotate 3s;}
